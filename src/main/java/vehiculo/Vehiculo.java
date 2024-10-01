@@ -7,11 +7,13 @@
  *
  * @author USUARIO
  */
-class TipoCombustible {
+public class Vehiculo {
+package vehiculo;
 
-    package tipocombustible ;
+import tipocombustible.TipoCombustible;
 
-    public enum TipoCombustible {
-        GASOLINA, DIESEL, ELECTRICO
-    }
+public interface Vehiculo {
+    void acelerar(); 
+    void frenar();      
+    TipoCombustible tipoCombustible(); 
 }
