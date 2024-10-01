@@ -8,5 +8,16 @@
  * @author USUARIO
  */
 class Coche {
+
+    void acelerar() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    String tipoCombustible() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    void frenar() {
+        throw new UnsupportedOperationException("Not supported yet."); 
     
 }

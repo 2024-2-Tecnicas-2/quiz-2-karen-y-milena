@@ -8,5 +8,17 @@
  * @author USUARIO
  */
 class Lancha {
+
+    String tipoCombustible() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    void frenar() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    void acelerar() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
     
 }
