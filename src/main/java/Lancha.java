@@ -1,24 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author USUARIO
- */
-class Lancha {
+public class Lancha extends VehiculoBase {
+    private TipoCombustible combustible;
 
-    String tipoCombustible() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    public Lancha(String marca, String modelo, TipoCombustible combustible) {
+        super(marca, modelo);
+        this.combustible = combustible;
     }
 
-    void frenar() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    @Override
+    public TipoCombustible tipoCombustible() {
+        return combustible;
     }
-
-    void acelerar() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
-    
 }
