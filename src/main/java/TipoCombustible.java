@@ -9,8 +9,6 @@
  */
 class TipoCombustible {
 
-    package tipocombustible ;
-
     public enum TipoCombustible {
         GASOLINA, DIESEL, ELECTRICO
     }
